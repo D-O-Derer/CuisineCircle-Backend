@@ -1,0 +1,12 @@
+spring:  #in .yml,if we use Chinese as annotation,we will meet messy code.So I really use Chinese,not English! --xwh
+  application:
+    name: CuisineServer
+  datasource:
+    url: jdbc:mysql://localhost:3306/cuisine_poi #这个是我自己数据库的url --xwh
+    username: root #这个是我自己设置的username --xwh
+    password: xwh20040919 #我本人测试用数据库密码 --xwh
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+upload:
+  localPath: /D:/upload_test/  #我本人设置的文件存放路径
+  accessPath: /upload/  #我本人设置的localhost文件访问路径
